@@ -1,5 +1,6 @@
 import PersonalInfo from "./components/PersonalInfo";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <h1>My CV</h1>
       <PersonalInfo />
       <Education />
+      <Experience />
     </div>
   );
 }
